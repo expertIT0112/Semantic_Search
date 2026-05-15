@@ -1,6 +1,7 @@
 # Semantic Search API
 
 A FastAPI-based semantic search system for company and product data with AI-powered embeddings and vector similarity search.
+This is a FastAPI API that stores embeddings in PostgreSQL + pgvector and calls OpenAI for embeddings.
 
 ## 🚀 Overview
 
@@ -46,9 +47,9 @@ semantic_search/
 
 ### Prerequisites
 
-- Python 3.8+
-- PostgreSQL with pgvector extension
-- OpenAI API key
+- **Python 3.8+** : 3.10 ~ 3.12 recommended
+- **PostgreSQL 14+** : with pgvector extension
+- **OpenAI API key** : usded for text-embedding-3-small
 
 ### Environment Variables
 
